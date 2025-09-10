@@ -1,0 +1,15 @@
+Project: My First Web Server
+This document summarizes the steps taken to create a basic "Hello, World!" web server.
+
+What We Did
+Chose a Technology: We decided to use Node.js with the Express.js framework. This is a popular and powerful combination for building web servers using JavaScript.
+
+Set Up the Project: We initialized a new Node.js project (npm init -y) and installed the Express library (npm install express).
+
+Wrote the Server Code: We created a file named hello_express.js containing the essential code to:
+
+Start a web server.
+
+Listen for connections on a specific port (5000).
+
+Respond with the message "Hello, World!" when someone visits the server's address in a browser.
